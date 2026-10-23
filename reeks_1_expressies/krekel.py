@@ -1,0 +1,5 @@
+tjirpsPerMinuut = int(input())
+TempF = 50 + ((tjirpsPerMinuut-40)/4)
+TempC = 10 + ((tjirpsPerMinuut-40)/7)
+print(f"temperatuur (Fahrenheit): {TempF}")
+print(f"temperatuur (Celsius): {TempC}")
